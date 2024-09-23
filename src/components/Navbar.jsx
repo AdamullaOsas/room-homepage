@@ -8,8 +8,9 @@ const Navbar = () => {
             <img src={logo} alt="logo" />
             <nav className="flex gap-8 navLink">
                 {links.map((link, index) => (
-                    <a key={index} href="/">
+                    <a key={index} href="/" className="group relative">
                         {link}
+                        <span className="absolute left-1/2 -bottom-2 w-0 h-[2px] bg-white transition-all duration-300 ease-in-out transform -translate-x-1/2 group-hover:w-6"></span>
                     </a>
                 ))}
             </nav>

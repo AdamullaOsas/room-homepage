@@ -37,4 +37,13 @@
         font-weight: 500;
         color: black;
     }
+
+    .titleAbout {
+        font-family: "League Spartan", sans-serif;
+        font-size: 15px;
+        letter-spacing: 6.67px;
+        line-height: 22px;
+        font-weight: 700;
+        color: black;
+    }
 }

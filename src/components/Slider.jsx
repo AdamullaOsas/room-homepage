@@ -7,13 +7,13 @@ const Slider = ({ nextImage, prevImage }) => {
     return (
         <div className="w-full h-full flex">
             <button
-                className="flex-1 flex items-center justify-center"
+                className="flex-1 flex items-center justify-center hover:bg-[#444444] transition-all"
                 onClick={prevImage}
             >
                 <img src={leftArrow} alt="leftArrow" />
             </button>
             <button
-                className="flex-1 flex items-center justify-center"
+                className="flex-1 flex items-center justify-center hover:bg-[#444444] transition-all"
                 onClick={nextImage}
             >
                 <img src={rightArrow} alt="rightArrow" />
